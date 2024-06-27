@@ -10,3 +10,12 @@ kn.fit(X_train,y_train)
 KNeighborsClassifier(n_neighbors=3)
 prediction=kn.predict(X_test)
 confusion_matrix(y_test,prediction)
+
+
+
+
+
+output
+array([[13,  0,  0],
+       [ 0, 15,  1],
+       [ 0,  0,  9]], dtype=int64)
